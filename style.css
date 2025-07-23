@@ -138,6 +138,36 @@ main {
   width: 100%;
 }
 
+/*flowers & plants lover*/
+.plants-lover {
+  display: flex;
+  padding-top: 200px;
+  gap: 60px;
+}
+.plants-lover-title {
+  font-size: 3.1rem;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.plants-lover-desc {
+  color: #00000073;
+  font-size: 22px;
+  margin: 30px 0;
+}
+.plants-lover-left {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+.badge-img {
+  position: absolute;
+  width: 40%;
+  display: flex;
+  top: -110px;
+  right: -110px;
+}
+
 @media screen and (max-width: 576px) {
   /*navbar*/
   .nav-items {
@@ -160,5 +190,20 @@ main {
   }
   .plant-cart-perent {
     padding-top: 20px;
+  }
+
+  /*flower & lover plants*/
+  .plants-lover {
+    display: block;
+  }
+  .badge-img {
+    display: none;
+  }
+  .plants-lover-img {
+    width: 100%;
+  }
+
+  .plants-lover-list {
+    padding: 20px;
   }
 }
