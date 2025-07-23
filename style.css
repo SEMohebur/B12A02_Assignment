@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+/*navbar*/
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 135px;
+  height: 82px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.nav-item-container {
+  display: flex;
+  gap: 48px;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+.nav-item {
+  color: #8987a1;
+}
+.nav-link {
+  text-decoration: none;
+  color: #8987a1;
+}
+
+/*hero*/
+.hero-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.hero-title-style {
+  color: #e95a08;
+}
+
+.hero-desc {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.466);
+}
+
+.hero {
+  display: flex;
+  margin-top: 109px;
+}
+
+.hero-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero-right-img {
+  display: block;
+}
+
+main {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*our plant*/
+.our-plant-header-title {
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+
+.our-plant-header-desc {
+  font-size: 22px;
+  color: #00000079;
+}
+.our-plant-header-container {
+  text-align: center;
+}
+.our-plant-header-title-styling {
+  color: #e95a08;
+}
+
+.plant-cart-content {
+  margin: 30px;
+  text-align: center;
+}
+
+.cart-title {
+  font-size: 22px;
+  font-weight: 500;
+}
+.cart-price {
+  font-weight: bold;
+  font-size: 22px;
+}
+.cart-btn {
+  width: 100%;
+  border: none;
+  background-color: #e95a08;
+  color: white;
+  padding: 16px;
+}
+
+.plant-cart-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.plant-cart-perent {
+  padding-top: 50px;
+}
+.cart-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  /*navbar*/
+  .nav-items {
+    display: none;
+  }
+
+  /*hero*/
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .hero-right-img {
+    width: 100%;
+  }
+
+  /*our plant*/
+  .plant-cart-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .plant-cart-perent {
+    padding-top: 20px;
+  }
+}
