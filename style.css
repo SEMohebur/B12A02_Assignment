@@ -167,6 +167,84 @@ main {
   top: -110px;
   right: -110px;
 }
+/*Latest Deals*/
+.latest-deal {
+  padding-top: 130px;
+}
+.deal-text-content {
+  text-align: center;
+}
+
+.deal-title {
+  font-size: 3.1rem;
+  font-weight: bold;
+}
+.deal-title-styles {
+  color: #e95a08;
+}
+.deal-desc {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.411);
+}
+
+.deal-image-container {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+.gellary-img {
+  width: 100%;
+}
+
+.gellary-img-1,
+.gellary-img-3 {
+  position: relative;
+}
+
+.gellary-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  background-color: rgba(0, 0, 0, 0.438);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.gellary-overlay-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.438);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.left-side-img {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.gellary-img {
+  border-radius: 20px;
+}
+
+.gellary-content {
+  text-align: center;
+}
 
 @media screen and (max-width: 576px) {
   /*navbar*/
@@ -202,8 +280,15 @@ main {
   .plants-lover-img {
     width: 100%;
   }
-
   .plants-lover-list {
     padding: 20px;
+  }
+
+  /*lates deal*/
+  .deal-image-container {
+    display: block;
+  }
+  .right-side-img {
+    padding-top: 20px;
   }
 }
