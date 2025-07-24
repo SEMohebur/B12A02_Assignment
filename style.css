@@ -123,6 +123,7 @@ main {
   background-color: #e95a08;
   color: white;
   padding: 16px;
+  cursor: pointer;
 }
 
 .plant-cart-container {
@@ -164,8 +165,8 @@ main {
   position: absolute;
   width: 40%;
   display: flex;
-  top: -110px;
-  right: -110px;
+  top: -95px;
+  right: -95px;
 }
 /*Latest Deals*/
 .latest-deal {
