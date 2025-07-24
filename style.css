@@ -246,6 +246,50 @@ main {
   text-align: center;
 }
 
+.form-section {
+  padding-top: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.form-container {
+  position: absolute;
+  text-align: center;
+}
+.form-img {
+  width: 100%;
+}
+.form-title {
+  font-size: 3.1rem;
+  font-weight: bold;
+  color: white;
+}
+
+input {
+  width: 830px;
+  height: 50px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+}
+.form-box {
+  position: relative;
+  margin-top: 30px;
+}
+.form-btn {
+  top: 0;
+  right: 0;
+  background-color: #e95a08;
+  border: none;
+  color: white;
+  width: 186px;
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 576px) {
   /*navbar*/
   .nav-items {
@@ -290,5 +334,24 @@ main {
   }
   .right-side-img {
     padding-top: 20px;
+  }
+
+  /*form*/
+  input {
+    width: 218px;
+  }
+  .form-btn {
+    width: 100px;
+  }
+
+  .form-img {
+    width: 100%;
+    height: 275px;
+  }
+  .form-title {
+    font-size: 20px;
+  }
+  .form-section {
+    padding-top: 40px;
   }
 }
