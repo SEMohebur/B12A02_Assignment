@@ -167,7 +167,18 @@ main {
   display: flex;
   top: -95px;
   right: -95px;
+  animation: spiner 10s infinite linear;
 }
+
+@keyframes spiner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /*Latest Deals*/
 .latest-deal {
   padding-top: 130px;
