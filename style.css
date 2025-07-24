@@ -334,19 +334,34 @@ footer {
   .hero-text-content,
   .plant-cart-perent,
   .plants-lover,
-  .latest-deal {
+  .latest-deal,
+  .our-plant-header-container {
     padding: 0 20px;
   }
   .nav-items {
     display: none;
+  }
+  .shoping {
+    font-size: 20px;
+  }
+  .logo {
+    width: 50%;
+    height: 50%;
   }
 
   /*hero*/
   .hero {
     flex-direction: column-reverse;
   }
+  .hero-title {
+    font-size: 24px;
+    padding-top: 24px;
+  }
   .hero-right-img {
     width: 100%;
+  }
+  .hero-desc {
+    font-size: 14px;
   }
 
   /*our plant*/
@@ -357,6 +372,14 @@ footer {
   }
   .plant-cart-perent {
     padding-top: 20px;
+  }
+
+  .our-plant-header-title {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .our-plant-header-desc {
+    font-size: 14px;
   }
 
   /*flower & lover plants*/
@@ -372,6 +395,15 @@ footer {
   .plants-lover-list {
     padding: 20px;
   }
+  .plants-lover {
+    padding-top: 40px;
+  }
+  .plants-lover-title {
+    font-size: 24px;
+  }
+  .plants-lover-desc {
+    font-size: 14px;
+  }
 
   /*lates deal*/
   .deal-image-container {
@@ -379,6 +411,14 @@ footer {
   }
   .right-side-img {
     padding-top: 20px;
+  }
+
+  .deal-title {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+  .deal-desc {
+    font-size: 14px;
   }
 
   /*form*/
